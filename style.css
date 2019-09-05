@@ -59,7 +59,7 @@ li a:hover {
 
 
 footer {
-    bottom: 0;
+    bottom: 42px;
     width: 100%;
     position: absolute;
     text-align: center;
