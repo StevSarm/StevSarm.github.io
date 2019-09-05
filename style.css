@@ -24,14 +24,14 @@ nav {
     margin: 48px 0;
 }
 
-#ulNav, #ulFooter {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.liNav, .liFooter {
+li {
     display: inline-block;
     padding: 0 13px;
     text-align: center;
@@ -58,6 +58,12 @@ li a:hover {
 
 
 
+footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
 
 .liFooter {
     height: 36px;
