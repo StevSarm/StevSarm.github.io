@@ -46,11 +46,20 @@ li a {
     transition: color 0.4s ease 0s;
 }
 
-.selected {
-    color: #FFF;
-}
-
 li a:hover {
     color: #FFF;
     transition: color 0.4s ease 0s;
+}
+
+#selected {
+    color: #FFF;
+}
+
+
+
+
+
+.liFooter {
+    height: 36px;
+    width: 36px;
 }
