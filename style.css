@@ -7,7 +7,6 @@ html, body {
 }
 
 header {
-    height: 200px;
     width: 100%;
     text-align: center;
 }
@@ -18,4 +17,27 @@ h1 {
     font-weight: 700;
     padding: 0;
     margin: 76px 0 0 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F77A80;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFF;
 }
