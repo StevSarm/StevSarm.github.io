@@ -43,6 +43,7 @@ li a {
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
+    transition: color 0.4s ease 0s;
 }
 
 .selected a {
@@ -51,4 +52,5 @@ li a {
 
 li a:hover {
     color: #FFF;
+    transition: color 0.4s ease 0s;
 }
