@@ -140,7 +140,7 @@ main {
 
 
 footer {
-    margin: 0 0 42px 0;
+    margin: 80px 0 42px 0;
     width: 100%;
     text-align: center;
 }
@@ -148,6 +148,7 @@ footer {
 .liFooter {
     height: 36px;
     width: 36px;
+    padding: 0 32px;
 }
 
 .socialimg {
