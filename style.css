@@ -74,8 +74,23 @@ main {
     max-width: 1000px;
 }
 
-.container {
-    
+.item {
+}
+
+.overlay {
+    background: #eee;
+    height: 100%;
+    width: 100%;
+    opacity: 0.0;
+    transition: opacity 0.4s ease 0s;
+}
+
+.overlay:hover {
+    background: #eee;
+    height: 100%;
+    width: 100%;
+    opacity: 1.0;
+    transition: opacity 0.4s ease 0s;
 }
 
 .image {
