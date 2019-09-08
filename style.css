@@ -107,9 +107,8 @@ main {
 
 
 footer {
-    bottom: 42px;
+    margin: 0 0 42px 0;
     width: 100%;
-    position: absolute;
     text-align: center;
 }
 
