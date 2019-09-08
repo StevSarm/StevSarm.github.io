@@ -2,9 +2,11 @@ html, body {
     background: #1f005e;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
+* {box-sizing: border-box;}
 
 header {
     width: 100%;
@@ -16,13 +18,14 @@ h1 {
     color: #ff7e88;
     font-size: 2.6rem;
     font-weight: 700;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 nav {
-    text-align: center;
     margin: 48px 0;
+    width: 100%;
+    text-align: center;
 }
 
 ul {
@@ -34,11 +37,14 @@ ul {
 
 li {
     display: inline-block;
-    padding: 0 13px;
     text-align: center;
 }
 
-li a {
+.liNav {
+    padding: 0 13px;
+}
+
+.liNav a {
     color: #ff7e88;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -47,20 +53,14 @@ li a {
     transition: color 0.4s ease 0s;
 }
 
-li a:hover {
-    color: #FFF;
+.liNav a:hover {
+    color: #fff;
     transition: color 0.4s ease 0s;
 }
 
 #selected {
-    color: #FFF;
+    color: #fff;
 }
-
-
-* {
-    box-sizing: border-box;
-}
-
 
 main {
     width: 100%;
@@ -136,8 +136,8 @@ main {
 }
 
 footer {
-    margin: 80px 0 42px 0;
     width: 100%;
+    margin: 80px 0 42px 0;
     text-align: center;
 }
 
@@ -150,4 +150,11 @@ footer {
 .socialimg {
     height: 36px;
     width: 36px;
+    opacity: 1.0;
+    transition: opacity 0.4s ease 0s;
+}
+
+.socialimg:hover {
+    opacity: 0.8;
+    transition: opacity 0.4s ease 0s;
 }
