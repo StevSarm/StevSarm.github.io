@@ -52,14 +52,14 @@
     }
     
     .liNav {
-        padding: 0 13px;
+        padding: 0 8px;
     }
     
     .liNav a {
         color: #ff7e88;
         font-family: 'Roboto', sans-serif;
         font-size: 1rem;
-        font-weight: 700;
+        font-weight: 500;
         text-decoration: none;
         transition: color 0.33s ease 0s;
     }
@@ -179,7 +179,6 @@
 @media (min-width: 1200px) {
     header {
         margin: 76px 0 0 0;
-        background: #fff;
     }
     
     h1 {
