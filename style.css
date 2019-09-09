@@ -176,7 +176,6 @@
         opacity: 0.6;
         transition: opacity 0.33s ease 0s;
     }
-}
 
 @media (min-width: 1200px) {
     header {
