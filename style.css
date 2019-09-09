@@ -125,15 +125,15 @@
     
     .text {
         color: #fff;
-        font-size: 1.5rem;
-        font-weight: 600;
+        font-size: 1rem;
+        font-weight: 700;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 4%;
+        left: 4%;
         text-align: center;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-4%, -4%);
+        -ms-transform: translate(-4%, -4%);
+        -webkit-transform: translate(-4%, -4%);
     }
     
     #one {
@@ -171,8 +171,9 @@
     }
     
     .liFooter a {
-        font-size: 0px;
         color: rgba(0,0,0,0.0);
+        font-size: 0px;
+        text-decoration: none;
     }
     
     .socialimg {
