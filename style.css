@@ -32,10 +32,15 @@ header {
 
 h1 {
     color: #ff7e88;
+    cursor: default;
     font-size: 2.6rem;
     font-weight: 700;
     margin: 0;
     padding: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
 }
 
 
