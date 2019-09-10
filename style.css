@@ -113,9 +113,9 @@ main {
 
 .text {
     color: #fff;
-    font-size: 1rem;
+    font-size: 4vw;
     position: absolute;
-    top: -2rem;
+    top: -9vw;
     left: 4%;
     transform: translate(-4%, -4%);
     -ms-transform: translate(-4%, -4%);
@@ -172,5 +172,121 @@ footer {
     transition: opacity 0.33s ease 0s;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
+/*<----------------HEADER---------------->*/
+header {
+    margin: 48px auto 0 auto;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+/*<----------------NAVIGATION---------------->*/
+nav {
+    margin: 48px 0 0 0;
+}
+
+.itemNav {
+    padding: 0 8px;
+}
+    
+.itemNav a {
+    font-size: 1rem;
+}
+
+/*<----------------MAIN---------------->*/
+#imageGrid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(48, 1fr);
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.overlay {
+    background: rgba(76,46,229,0.0);
+    opacity: 1.0;
+}
+
+.text {
+    font-size: 4vw;
+    top: -9vw;
+    left: 4%;
+    transform: translate(-4%, -4%);
+    -ms-transform: translate(-4%, -4%);
+    -webkit-transform: translate(-4%, -4%);
+}
+    
+#one {
+    grid-column: 1 / 1;
+    grid-row: 3 / 11;
+}
+
+#two {
+    grid-column: 1 / 1;
+    grid-row: 13 / 28;
+}
+
+#three {
+    grid-column: 1 / 1;
+    grid-row: 30 / 39;
+}
+
+#four {
+    grid-column: 1 / 1;
+    grid-row: 41 / 49;
+}
+
+/*<----------------FOOTER---------------->*/
+footer {
+    margin: 48px 0 32px 0;
+}
+
+.itemFooter {
+    height: 48px;
+    width: 48px;
+    padding: 0 16px;
+}
+    
+.itemFooter a {
+    color: rgba(0,0,0,0.0);
+    font-size: 0px;
+}
+
+.imageSocial {
+    height: 48px;
+    width: 48px;
+    opacity: 1.0;
+    transition: opacity 0.33s ease 0s;
+}
+
+.imageSocial:hover {
+    opacity: 0.6;
+    transition: opacity 0.33s ease 0s;
+}
 }
