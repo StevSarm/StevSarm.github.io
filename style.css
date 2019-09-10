@@ -77,7 +77,7 @@ main {
 #imageGrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(48, 1fr);
+    grid-template-rows: none;
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -113,7 +113,7 @@ main {
 
 .text {
     color: #fff;
-    font-size: 4vw;
+    font-size: 1rem;
     position: absolute;
     top: -9vw;
     left: 4%;
@@ -123,23 +123,23 @@ main {
 }
     
 #one {
-    grid-column: 1 / 1;
-    grid-row: 3 / 11;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 #two {
-    grid-column: 1 / 1;
-    grid-row: 13 / 28;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 #three {
-    grid-column: 1 / 1;
-    grid-row: 30 / 39;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 #four {
-    grid-column: 1 / 1;
-    grid-row: 41 / 49;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 /*<----------------FOOTER---------------->*/
