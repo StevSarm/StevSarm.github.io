@@ -43,7 +43,7 @@ h1 {
 /*<----------------NAVIGATION---------------->*/
 nav {
     width: 100%;
-    margin: 48px 0;
+    margin: 48px 0 0 0;
     text-align: center;
 }
 
@@ -55,7 +55,6 @@ nav {
     color: #ff7e88;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight: 500;
     text-decoration: none;
     transition: color 0.33s ease 0s;
 }
@@ -116,7 +115,7 @@ main {
     color: #fff;
     font-size: 1rem;
     position: absolute;
-    top: -36px;
+    top: -2rem;
     left: 4%;
     transform: translate(-4%, -4%);
     -ms-transform: translate(-4%, -4%);
