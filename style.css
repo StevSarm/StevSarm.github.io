@@ -123,22 +123,22 @@ main {
     -webkit-transform: translate(-4%, -4%);
 }
     
-#albumArt {
+#one {
     grid-column: 1 / 1;
     grid-row: 3 / 11;
 }
 
-#2dProjects {
+#two {
     grid-column: 1 / 1;
     grid-row: 13 / 28;
 }
 
-#iosThemes {
+#three {
     grid-column: 1 / 1;
     grid-row: 30 / 39;
 }
 
-#3dProjects {
+#four {
     grid-column: 1 / 1;
     grid-row: 41 / 49;
 }
