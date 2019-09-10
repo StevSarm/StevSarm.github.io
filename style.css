@@ -1,6 +1,5 @@
 html, body {
     background: #1f005e;
-    color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -114,9 +113,10 @@ main {
 }
 
 .text {
+    color: #fff;
     font-size: 1rem;
     position: absolute;
-    top: 4%;
+    top: -36px;
     left: 4%;
     transform: translate(-4%, -4%);
     -ms-transform: translate(-4%, -4%);
