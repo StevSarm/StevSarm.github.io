@@ -186,7 +186,7 @@ footer {
 /*<----------------HEADER---------------->*/
 header {
     width: 80%;
-    margin: 48px auto 0 auto;
+    margin: 72px auto 0 auto;
 }
 
 h1 {
@@ -263,13 +263,13 @@ footer {
 }
 
 .itemFooter {
-    height: 36px;
-    width: 36px;
-    padding: 0 16px;
+    height: 48px;
+    width: 48px;
+    padding: 0 24px;
 }
 
 .imageSocial {
-    height: 36px;
-    width: 36px;
+    height: 48px;
+    width: 48px;
 }
 }
