@@ -43,7 +43,7 @@ h1 {
 /*<----------------NAVIGATION---------------->*/
 nav {
     width: 100%;
-    margin: 48px 0 0 0;
+    margin: 48px auto 0 auto;
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ nav {
 /*<----------------MAIN---------------->*/
 main {
     width: 100%;
-    margin: 128px 0 0 0;
+    margin: 128px auto 0 auto;
     text-align: center;
 }
 
@@ -144,7 +144,7 @@ main {
 /*<----------------FOOTER---------------->*/
 footer {
     width: 100%;
-    margin: 64px 0 32px 0;
+    margin: 64px auto 32px auto;
     text-align: center;
 }
 
@@ -182,19 +182,94 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) {
+/*<----------------HEADER---------------->*/
+header {
+    width: 80%;
+    margin: 48px auto 0 auto;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+/*<----------------NAVIGATION---------------->*/
+nav {
+    width: 100%;
+    margin: 48px auto 0 auto;
+}
+
+.itemNav {
+    padding: 0 8px;
+}
+    
+.itemNav a {
+    font-size: 1rem;
+}
+
+/*<----------------MAIN---------------->*/
+main {
+    width: 100%;
+    margin: 128px auto 0 auto;
+}
+
+#imageGrid {
+    grid-row-gap: 5rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: none;
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.overlay {
+    background: rgba(76,46,229,0.0);
+    opacity: 1.0;
+}
+
+.itemMain:hover .overlay {
+    opacity: 1.0;
+}
+
+.text {
+    font-size: 1rem;
+    top: -2.5rem;
+    left: 1rem;
+}
+    
+#one {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+#two {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+#three {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+#four {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+/*<----------------FOOTER---------------->*/
+footer {
+    width: 100%;
+    margin: 64px auto 32px auto;
+}
+
+.itemFooter {
+    height: 36px;
+    width: 36px;
+    padding: 0 16px;
+}
+
+.imageSocial {
+    height: 36px;
+    width: 36px;
+}
 }
