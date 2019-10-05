@@ -173,103 +173,188 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) {
-/*<----------------HEADER---------------->*/
-header {
-    width: 80%;
-    margin: 80px auto 0 auto;
-}
+    /*<----------------HEADER---------------->*/
+    header {
+        width: 80%;
+        margin: 80px auto 0 auto;
+    }
 
-h1 {
-    font-size: 3.4rem;
-}
+    h1 {
+        font-size: 3.4rem;
+    }
 
-/*<----------------NAVIGATION---------------->*/
-nav {
-    width: 100%;
-    margin: 56px auto 0 auto;
-}
+    /*<----------------NAVIGATION---------------->*/
+    nav {
+        width: 100%;
+        margin: 56px auto 0 auto;
+    }
 
-.itemNav {
-    padding: 0 12px;
-}
+    .itemNav {
+        padding: 0 12px;
+    }
     
-.itemNav a {
-    font-size: 1.4rem;
-}
+    .itemNav a {
+        font-size: 1.4rem;
+    }
 
-/*<----------------MAIN---------------->*/
-main {
-    width: 80%;
-    margin: 96px auto 0 auto;
-}
+    /*<----------------MAIN---------------->*/
+    main {
+        width: 80%;
+        margin: 112px auto 0 auto;
+    }
 
-#imageGrid {
-    grid-row-gap: 6rem;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: none;
-    margin: 0 auto;
-    max-width: 1024px;
-}
+    #imageGrid {
+        grid-row-gap: 6rem;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: none;
+        margin: 0 auto;
+        max-width: 1024px;
+    }
 
-.overlay {
-    background: rgba(76,46,229,0.0);
-    opacity: 1.0;
-}
+    .overlay {
+        background: rgba(76,46,229,0.0);
+        opacity: 1.0;
+    }
 
-.itemMain:hover .overlay {
-    opacity: 1.0;
-}
+    .itemMain:hover .overlay {
+        opacity: 1.0;
+    }
 
-.text {
-    font-size: 1.4rem;
-    top: -3rem;
-    left: 1rem;
-}
+    .text {
+        font-size: 1.4rem;
+        top: -3rem;
+        left: 1rem;
+    }
     
-#one {
-    grid-column: auto;
-    grid-row: auto;
+    #one {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    #two {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    #three {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    #four {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    /*<----------------FOOTER---------------->*/
+    footer {
+        width: 100%;
+        margin: 72px auto 48px auto;
+    }
+
+    .itemFooter {
+        height: 48px;
+        width: 48px;
+        padding: 0 24px;
+    }
+
+    .imageSocial {
+        height: 48px;
+        width: 48px;
+    }
 }
 
-#two {
-    grid-column: auto;
-    grid-row: auto;
-}
 
-#three {
-    grid-column: auto;
-    grid-row: auto;
-}
 
-#four {
-    grid-column: auto;
-    grid-row: auto;
-}
+@media (min-width: 992px) {
+    /*<----------------HEADER---------------->*/
+    header {
+        width: 80%;
+        margin: 80px auto 0 auto;
+    }
 
-/*<----------------FOOTER---------------->*/
-footer {
-    width: 100%;
-    margin: 72px auto 48px auto;
-}
+    h1 {
+        font-size: 3.4rem;
+    }
 
-.itemFooter {
-    height: 48px;
-    width: 48px;
-    padding: 0 24px;
-}
+    /*<----------------NAVIGATION---------------->*/
+    nav {
+        width: 100%;
+        margin: 56px auto 0 auto;
+    }
 
-.imageSocial {
-    height: 48px;
-    width: 48px;
-}
+    .itemNav {
+        padding: 0 12px;
+    }
+    
+    .itemNav a {
+        font-size: 1.4rem;
+    }
+
+    /*<----------------MAIN---------------->*/
+    main {
+        width: 80%;
+        margin: 112px auto 0 auto;
+    }
+
+    #imageGrid {
+        grid-row-gap: 6rem;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: none;
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+    .overlay {
+        background: rgba(76,46,229,0.0);
+        opacity: 1.0;
+    }
+
+    .itemMain:hover .overlay {
+        opacity: 1.0;
+    }
+
+    .text {
+        font-size: 1.4rem;
+        top: -3rem;
+        left: 1rem;
+    }
+    
+    #one {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    #two {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    #three {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    #four {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    /*<----------------FOOTER---------------->*/
+    footer {
+        width: 100%;
+        margin: 72px auto 48px auto;
+    }
+
+    .itemFooter {
+        height: 48px;
+        width: 48px;
+        padding: 0 24px;
+    }
+
+    .imageSocial {
+        height: 48px;
+        width: 48px;
+    }
 }
