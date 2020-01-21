@@ -5,8 +5,8 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Steve Sarmiento's Repo
+Description: Steve Sarmiento's Themes
 
 SHA256:
- a2213180ecddaa2ea3d585979ab91b7f2aeddd3efef210c51b82dc28b6692e42 706 Packages.bz2
- cd5fc1a9677c7fc781fadd9440dfe0bd1c1943cbc63ca4521676d780ef41efff 692 Packages.xz
+ 257dc421226f666f68caf380237e7561ad7e02798fd4b3f183f634def628a560 698 Packages.bz2
+ 974b3e7d7d01f28d3acb398fe9389a45c850de7dfee9ea9609b5f3fe254821e3 684 Packages.xz
