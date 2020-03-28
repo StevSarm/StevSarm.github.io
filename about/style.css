@@ -146,9 +146,13 @@ body {
         margin: 10vh auto 4vh auto;
     }
     
+    #pic {
+        width: 20%;
+    }
+    
     #footerLinks {
         display: inline-block;
-        margin: 36vw 0 8vw 0;
+        margin: 36vw 0 12vw 0;
     }
     
     .mobileLink img {
