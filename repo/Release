@@ -1,0 +1,12 @@
+Origin: Steve Sarmiento's Repo
+Label: Steve Sarmiento's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Steve Sarmiento's Repo
+
+SHA256:
+ 13380e54a378a112d67842cd3f794714705ca600f922314abc900884454a8651 1015 Packages.bz2
+ 9b94c768aadf572ce6425dff57d7e052808581c980cdd4a1a8a46b2c38901c7b 944 Packages.xz
