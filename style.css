@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0;
+    line-height: 1.7;
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+
+#siteWrapper {
+    min-height: 100vh;
+    text-align: center;
+    
+}
+
+#headerContainer {
+    width: 100%;
+    padding: 1.8vw 3vw;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+#header {
+    max-width: 2200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.headerSection {
+    flex: 1 0 0;
+}
+
+.headerSection a {
+    color: #000;
+    text-decoration: none;
+}
+
+#headerTitle {
+    text-align: left;
+    font-size: 1.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0;
+    padding: 0;
+}
+
+#headerNav {
+    text-align: center;
+    font-size: .9rem;
+}
+
+#headerNav a {
+    padding: 0.4em 0;
+    letter-spacing: 0.1em;
+    margin: 0 .5em;
+}
+
+.selectedNav {
+    border-bottom: 1px solid #000;
+}
+
+#headerLinks {
+    text-align: right;
+    font-size: 0;
+}
+
+.link {
+    margin: 0 0 0 1.5vw;
+}
+
+.link img {
+    width: 20px;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 0 8vh 0;
+}
+
+.itemContainer {
+    flex: 1 0 0;
+    font-size: 0;
+}
+
+.itemImage img {
+    width: 100%;
+}
+
+#footerLinks {
+    display: none;
+}
+
+
+@media (max-width:500px) {
+    #content {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+    
+    #headerContainer {
+        padding: 8vw 10vw;
+    }
+    
+    #header {
+        display: block;
+    }
+    
+    #headerLinks {
+        display: none;
+    }
+    
+    #headerTitle {
+        text-align: center;
+        font-size: 2.5em;
+        letter-spacing: 0.02em;
+        padding: .4em 0 .5em 0;
+    }
+    
+    #headerNav {
+        font-size: 1rem;
+        padding: 1em 0;
+    }
+    
+    #headerNav a {
+        padding: .8em 1.2em;
+        letter-spacing: 0.1em;
+        margin: 0 1em;
+    }
+
+    .selectedNav {
+        border-bottom: 0px solid #000;
+        background: #eceff9;
+        border-radius: 128px;
+    }
+    #footerLinks {
+        bottom: 0;
+        display: inline-block;
+        margin: 14vw 0 12vw 0;
+    }
+    
+    .mobileLink img {
+        width: 24px;
+        padding: 0 5vw;
+    }
