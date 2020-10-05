@@ -142,7 +142,7 @@ body {
     
     #headerTitle {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
 		letter-spacing: 0.01rem;
         padding: .5rem 0;
     }
@@ -153,12 +153,12 @@ body {
     
     #headerNav a {
         padding: .8rem 1.2rem 0.9rem 1.2rem;
-        margin: 0 1rem;
+        margin: 0 0.6rem;
     }
 
     .selectedNav {
         border-bottom: 0px solid #000;
-        background: #F2B8B4;
+        background: #F7C1BC;
         border-radius: 128px;
     }
     
