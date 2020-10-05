@@ -7,14 +7,15 @@ body {
     background: #FFDDD6;
     color: #472B2E;
     font-family: 'Sk-Modernist-Regular', sans-serif;
+    font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.4;
-    font-size: 1rem;
     letter-spacing: 0.02rem;
 	text-align: center;
 }
 
 #siteWrapper {
+	position: relative;
 	max-width: 2000px;
     min-height: 100vh;
 	margin: 0 auto;
@@ -169,16 +170,22 @@ body {
 	#content {
         display: block;
         margin: 0;
+		padding: 0 0 24vw 0;
     }
 	
 	.itemImage img {
 		margin: 0 0 8vw 0;
 	}
     
+    
     #footerLinks {
+		position: absolute;
         bottom: 0;
-        display: inline-block;
+		left: 0;
+		right: 0;
+        display: inline;
         margin: 4vw 0 12vw 0;
+		
     }
     
     .mobileLink img {
