@@ -132,7 +132,7 @@ body {
 	}
     
     #headerContainer {
-        padding: 10vw 10vw 8vw 10vw;
+        padding: 10vw 10vw 6vw 10vw;
     }
     
     #header {
@@ -179,12 +179,12 @@ body {
 	}
     
     #footerLinks {
-		position: absolute;
+		position: relative;
         bottom: 0;
 		left: 0;
 		right: 0;
-        display: inline;
-        margin: 4vw 0 12vw 0;
+        display: inline-block;
+        margin: 20vh 0 12vh 0;
     }
     
     .mobileLink img {
