@@ -171,23 +171,9 @@ body {
 	
 	#pic {
 		width: 21vh;
-		margin: 8vh 0 4vh 0;
+		margin: 4vh 0;
 	}
 	
 	#bio {
 		font-size: 1rem;
 	}
-    
-    #footerLinks {
-		position: relative;
-        bottom: 0;
-		left: 0;
-		right: 0;
-        display: inline-block;
-        margin: 20vh 0 12vh 0;
-    }
-    
-    .mobileLink img {
-        width: 24px;
-        padding: 0 5vw;
-    }
