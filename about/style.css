@@ -209,12 +209,17 @@ body {
 /*mobile*/
 @media (max-width:500px) {
 	body {
+		font-size: 1rem;
 		line-height: 1.6;
 		letter-spacing: 0.05rem;
 	}
+	
+	#siteWrapper {
+		padding: 0 6vw;
+	}
     
     #headerContainer {
-        padding: 10vw 10vw 6vw 10vw;
+        padding: 10vw 10vw 8vw 10vw;
     }
     
     #header {
