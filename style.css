@@ -39,7 +39,7 @@ body {
 #siteWrapper {
 	position: relative;
 	max-width: 2000px;
-    min-height: 100vh;
+    min-height: 100%;
 	margin: 0 auto;
 	padding: 0 8vw;
 }
