@@ -146,6 +146,66 @@ body {
     display: none;
 }
 
+/*tablets*/
+@media (max-width:800px) {
+	body {
+		font-size: 1.1rem;
+		line-height: 1.8;
+		letter-spacing: 0.02rem;
+	}
+	
+	#siteWrapper {
+		padding: 0 6vw;
+	}
+    
+    #headerContainer {
+        padding: 11vw 10vw 7vw 10vw;
+    }
+    
+    #header {
+        display: block;
+    }
+    
+    #headerTitle {
+        text-align: center;
+        font-size: 4.2rem;
+		letter-spacing: 0;
+        padding: .5rem 0;
+    }
+    
+    #headerNav {
+        padding: 1.2rem 0 1rem 0;
+    }
+    
+    #headerNav a {
+        padding: 0.8rem 1.2rem 1.1rem 1.2rem;
+        margin: 0 0.4rem;
+    }
+
+    .selectedNav {
+        border-bottom: 0px solid #000;
+        background: #F8C7C2;
+        border-radius: 128px;
+    }
+    
+    #headerLinks {
+        display: none;
+    }
+	
+	#content {
+		display: inline-block;
+	}
+	
+	#pic {
+		width: 21vh;
+		margin: 4vh 0;
+	}
+	
+	#bio {
+		font-size: 1.1rem;
+	}
+}
+
 /*mobile*/
 @media (max-width:500px) {
 	body {
