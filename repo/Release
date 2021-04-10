@@ -1,5 +1,5 @@
-Origin: StevSarm's Repo
-Label: StevSarm's Repo
+Origin: Steve Sarmiento's Repo
+Label: Steve Sarmiento's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -8,5 +8,5 @@ Components: main
 Description: Steve Sarmiento's Repo
 
 SHA256:
- 011b619b740582c1617d488982ae1d5af2d4499284a14036f6854f3a63a5330f 963 Packages.bz2
- eebdd171971a9706c9de5a56acafc1c07c667989f94ed6728a8c61f7e9cf1377 900 Packages.xz
+ f1c360011880280d6184d18d4d63c15bf6a7257b46828a1004dea0cb1ea11e86 807 Packages.bz2
+ 51fcec52ece96e808ecc43ceb285b4572b0fc69bcf831cbc615db08d13a7c707 756 Packages.xz
