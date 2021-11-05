@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="gmail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
-<style type="text/css">
-	.icon{fill:#543236;}
-</style>
-<path class="icon" d="M17,2H3C1.34,2,0,3.34,0,5v10c0,1.66,1.34,3,3,3h14c1.66,0,3-1.34,3-3V5C20,3.34,18.66,2,17,2z M18,15
-	c0,0.55-0.45,1-1,1h-1V6.83l-6,6l-6-6V16H3c-0.55,0-1-0.45-1-1V5c0-0.55,0.45-1,1-1h1l6,6l6-6h1c0.55,0,1,0.45,1,1V15z"/>
-</svg>
