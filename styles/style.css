@@ -32,7 +32,7 @@ ul a {
 	text-decoration: none;
 	color: #fff;
 	transition: color 0.22s ease;
-	margin: 1rem 0;
+	margin: 0.8rem 0;
 }
 
 ul a:hover, ul a:active {
@@ -50,7 +50,7 @@ ul a:hover, ul a:active {
 #links {
 	position: absolute;
 	right: 5.5vw;
-	top: 4.2vh;
+	top: 4.6vh;
 	font-size: 0.62rem;
 	line-height: 2.5;
 	z-index: 99;
@@ -85,7 +85,7 @@ ul a:hover, ul a:active {
 .controls {
   	cursor: pointer;
   	position: absolute;
-	bottom: 7.2vh;
+	bottom: 8.1vh;
   	font-size: 1.5rem;
   	transition: 0.22s ease;
   	user-select: none;
@@ -104,7 +104,7 @@ ul a:hover, ul a:active {
 }
 
 #prev:hover, #next:hover {
-  	background-color: rgba(0,0,0,0.2);
+  	background-color: rgba(0,0,0,0);
 }
 
 #dot-container {
@@ -137,10 +137,79 @@ ul a:hover, ul a:active {
   	text-align: center;
 }
 
+@media (min-width: 768px) and (orientation: portrait)  {
+html {
+	background-size: 24vw;
+}
+
+ul a {
+	margin: 0.8rem 0;
+}
+
+#title {
+	margin: 6.6vh 0 0 5vw;
+	font-size: 4.2rem;
+}
+
+#links {
+	right: 5.8vw;
+	top: 4.8vh;
+	font-size: 0.7rem;
+	line-height: 2.5;
+}
+
+.slide-counter {
+  	font-size: 0.6rem;
+  	top: 3.8vh;
+  	left: 6.3vw;
+}
+.image {
+	max-height: 54vh;
+	max-width: 91vw;
+	top: 51%;
+}
+
+.controls {
+	bottom: 9vh;
+  	font-size: 1.68rem;
+  	transition: 0.22s ease;
+  	user-select: none;
+	margin: 0 0 0.2rem 0;
+}
+
+#prev {
+	border-radius: 50% 0 0 50%;
+  	padding: 0.8rem 0.8rem 0.8rem 1rem;
+	left: 4.8vw;
+}
+#next {
+  	border-radius: 0 50% 50% 0;
+  	padding: 0.8rem 1rem 0.8rem 0.8rem;
+    right: 4.8vw;
+}
+
+#prev:hover, #next:hover {
+  	background-color: rgba(0,0,0,0);
+}
+
+#dot-container {
+	bottom: 11vh;
+}
+
+.dot {
+	height: 1.6vw;
+	width: 1.6vw;
+	margin: 0 1.8vw;
+}
+
+.caption {
+	font-size: 0.78rem;
+  	bottom: 6.5vh;
+}
+}
 
 /*
-ORIGINAL
-
+@media screen and (min-width: 1024px) {
 * {box-sizing:border-box}
 
 *,html,body {
@@ -276,5 +345,6 @@ ul a:hover {
   	bottom: 7vh;
   	width: 100%;
   	text-align: center;
+}
 }
 */
