@@ -31,7 +31,7 @@ ul a {
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	margin: 0 0 3.6vh 0;
+	margin: 0 0 3.4vh 0;
 	transition: color 0.22s ease;
 }
 
@@ -50,7 +50,7 @@ ul a:hover, ul a:active {
 #links {
 	font-size: 0.62rem;
 	position: absolute;
-	top: 7.4vh;
+	top: 7.2vh;
 	right: 5.8vw;
 	z-index: 99;
 }
@@ -70,8 +70,8 @@ ul a:hover, ul a:active {
 .image {
 	border: 1px solid rgba(255, 255, 255, 0.15);
 	position: absolute;
-	max-height: 55vh;
-	max-width: 90.5vw;
+	max-height: 53.5vh;
+	max-width: 90.1vw;
 	top: 51.6%;
 	left: 50%;
 	transform: translate(-50%, -50%);
