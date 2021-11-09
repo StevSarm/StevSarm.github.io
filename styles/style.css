@@ -43,14 +43,14 @@ ul a:hover, ul a:active {
 
 #title {
 	font-size: 3.8rem;
-	margin: 7vh 0 0 5vw;
+	margin: 6.5vh 0 0 5vw;
 	z-index: 100;
 }
 
 #links {
 	font-size: 0.62rem;
 	position: absolute;
-	top: 7.2vh;
+	top: 6.7vh;
 	right: 5.8vw;
 	z-index: 99;
 }
@@ -59,7 +59,7 @@ ul a:hover, ul a:active {
   	position: absolute;
 	color: rgba(255, 255, 255, 0.58);
   	font-size: 0.52rem;
-  	top: 3.4vh;
+  	top: 2.9vh;
   	left: 6.2vw;
 }
 
@@ -70,7 +70,7 @@ ul a:hover, ul a:active {
 .image {
 	border: 1px solid rgba(255, 255, 255, 0.15);
 	position: absolute;
-	max-height: 53.5vh;
+	max-height: 52.5vh;
 	max-width: 90.1vw;
 	top: 51.6%;
 	left: 50%;
@@ -78,7 +78,7 @@ ul a:hover, ul a:active {
 }
 
 .controls {
-	bottom: 12vh;
+	bottom: 11.5vh;
 	font-size: 1.5rem;
 	margin: 0 0 -0.75rem 0;
 	cursor: pointer;
@@ -104,7 +104,7 @@ ul a:hover, ul a:active {
 	text-align: center;
 	position: absolute;
 	display: flex;
-	bottom: 11.8vh;
+	bottom: 11.3vh;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -128,7 +128,7 @@ ul a:hover, ul a:active {
 	position: absolute;
 	text-align: center;
 	width: 100%;
-	bottom: 6vh;
+	bottom: 5.5vh;
 }
 
 
