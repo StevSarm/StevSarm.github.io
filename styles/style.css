@@ -31,7 +31,7 @@ ul a {
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	margin: 0 0 3.4vh 0;
+	margin: 0 0 3.1vh 0;
 	transition: color 0.22s ease;
 }
 
@@ -42,13 +42,13 @@ ul a:hover, ul a:active {
 }
 
 #title {
-	font-size: 3.8rem;
+	font-size: 3.6rem;
 	margin: 6.5vh 0 0 5vw;
 	z-index: 100;
 }
 
 #links {
-	font-size: 0.62rem;
+	font-size: 0.6rem;
 	position: absolute;
 	top: 6.7vh;
 	right: 5.8vw;
@@ -79,13 +79,19 @@ ul a:hover, ul a:active {
 
 .controls {
 	bottom: 11.5vh;
-	font-size: 1.5rem;
-	margin: 0 0 -0.75rem 0;
+	font-size: 1.4rem;
+	margin: 0 0 -0.7rem 0;
 	cursor: pointer;
 	user-select: none;
 	position: absolute;
 	color: rgba(255, 255, 255, 0.72);
 	transition: color 0.28s ease;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 #prev {
@@ -111,9 +117,9 @@ ul a:hover, ul a:active {
 
 .dot {
 	cursor: pointer;
-	height: 0.5rem;
-	width: 0.5rem;
-	margin: 0 2.5vw -0.25rem 2.5vw;
+	height: 0.4rem;
+	width: 0.4rem;
+	margin: 0 3vw -0.2rem 3vw;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.72);
 	transition: background-color 0.28s ease;
@@ -124,7 +130,7 @@ ul a:hover, ul a:active {
 }
 
 .caption {
-	font-size: 0.7rem;
+	font-size: 0.6rem;
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -194,7 +200,7 @@ ul a:hover, ul a:active {
 
 	html {background-size: 21.7vh;}
 
-	ul a {margin: 0 0 3.5vh 0;}
+	ul a {margin: 0 0 3.8vh 0;}
 
 	#title {
 		font-size: 3.8rem;
@@ -202,7 +208,7 @@ ul a:hover, ul a:active {
 	}
 
 	#links {
-		font-size: 0.62rem;
+		font-size: 0.68rem;
 		top: 6.75vh;
 		right: 5.8vw;
 	}
@@ -216,11 +222,11 @@ ul a:hover, ul a:active {
 	.image {
 		max-height: 51vh;
 		max-width: 90vw;
-		top: 50.8%;
+		top: 49%;
 	}
 
 	.controls {
-		bottom: 11.5vh;
+		bottom: 14vh;
 		font-size: 1.5rem;
 		margin: 0 0 -0.75rem 0;
 	}
@@ -229,7 +235,7 @@ ul a:hover, ul a:active {
 
 	#next {right: 6vw;}
 
-	#dot-container {bottom: 11.3vh;}
+	#dot-container {bottom: 14vh;}
 
 	.dot {
 		height: 0.5rem;
@@ -270,22 +276,22 @@ ul a:hover, ul a:active {
 	}
 
 	.image {
-		max-height: 64vh;
-		max-width: 64vw;
-		top: 50%;
+		max-height: 62vh;
+		max-width: 62vw;
+		top: 49.5%;
 	}
 
 	.controls {
-		bottom: 11.5vh;
+		bottom: 12vh;
 		font-size: 1.5rem;
 		margin: 0 0 -0.75rem 0;
 	}
 
-	#prev {left: 21.5vw;}
+	#prev {left: 11.5vw;}
 
-	#next {right: 21.5vw;}
+	#next {right: 11.5vw;}
 
-	#dot-container {bottom: 11.3vh;}
+	#dot-container {bottom: 12vh;}
 
 	.dot {
 		height: 0.4rem;
@@ -295,7 +301,7 @@ ul a:hover, ul a:active {
 
 	.caption {
 		font-size: 0.74rem;
-		bottom: 5.5vh;
+		bottom: 5.8vh;
 	}
 }
 
@@ -304,7 +310,7 @@ ul a:hover, ul a:active {
 
 @media (min-width: 1440px) and (orientation: landscape)  {
 
-	html {background-size: 18.68vh;}
+	html {background-size: 17.5vh;}
 
 	ul a {margin: 0 0 3.5vh 0;}
 
@@ -326,31 +332,31 @@ ul a:hover, ul a:active {
 	}
 
 	.image {
-		max-height: 64vh;
-		max-width: 64vw;
-		top: 50%;
+		max-height: 63vh;
+		max-width: 63vw;
+		top: 49.5%;
 	}
 
 	.controls {
-		bottom: 11.4vh;
+		bottom:13.5vh;
 		font-size: 1.5rem;
 		margin: 0 0 -0.75rem 0;
 	}
 
-	#prev {left: 20vw;}
+	#prev {left: 11.5vw;}
 
-	#next {right: 20vw;}
+	#next {right: 11.5vw;}
 
-	#dot-container {bottom: 11.3vh;}
+	#dot-container {bottom: 13.5vh;}
 
 	.dot {
 		height: 0.4rem;
 		width: 0.4rem;
-		margin: 0 1.5vw -0.2rem 1.5vw;
+		margin: 0 1.4vw -0.2rem 1.4vw;
 	}
 
 	.caption {
 		font-size: 0.88rem;
-		bottom: 5.4vh;
+		bottom: 7vh;
 	}
 }
