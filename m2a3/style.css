@@ -20,7 +20,7 @@ body {
 	box-sizing: inherit;
 }
 
-main, header, footer {
+header, footer {
 	background-color: #002626;
 }
 
@@ -37,7 +37,7 @@ main, header {
 header {
 	text-align: center;
 	padding: 22px 34px;
-	margin: 0;
+	margin: 0 0 24px 0;
 }
 
 header h1 {
@@ -72,12 +72,13 @@ nav ul li a {
 	padding: 0 3.6rem;
 }
 
-main {
+#mainHome {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
 	margin: 28px 0 96px 0;
+	background-color: #002626;
 }
 
 .column {
@@ -95,6 +96,53 @@ main {
 
 #right {
 	padding: 12px 24px;
+}
+
+#mainEvents {
+	display: block;
+	margin: 0 0 96px 0;
+}
+
+.eventContainer {
+	background-color: #002626;
+	width: 100%;
+	margin: 0 0 24px 0;
+	border-radius: 4px;
+	padding: 16px 32px;
+}
+
+.specialContainer {
+	background: linear-gradient(rgba(0,13,12,0.72), rgba(0,13,12,0.72)) , var(--image-url) center center;
+	background-size: cover;
+}
+
+.eventContainer h2 {
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	font-weight: 500;
+}
+
+.eventContainer p {
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+#mainContact {
+	margin: 0 0 96px 0;
+	padding: 12px 32px;
+	background: linear-gradient(rgba(0,38,38,0.65), rgba(0,38,38,0.65)) , var(--image-url) center center;
+	background-size: cover;
+}
+
+main h2 {
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	font-weight: 500;
+}
+
+main label {
+	font-size: 1rem;
+	line-height: 1rem;
 }
 
 footer {
