@@ -214,6 +214,7 @@ nav ul li a {
 #contactForm button {
 	font-size: 0.9rem;
 	line-height: 34px;
+	font-weight: 400;
 	height: 34px;
 	width: 100%;
 	max-width: 400px;
