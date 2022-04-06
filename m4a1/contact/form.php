@@ -4,7 +4,7 @@
 <title>Form Confirmation Page</title>
 </head>
 <body>
-<hl >The form information received is given below:</h l >";
+<hl >The form information received is given below:</hl >";
 $message = ";
 foreach ($_pOST as $key=> $value){
 $message.= $key . " : " . $value . "<br>\r\n";
