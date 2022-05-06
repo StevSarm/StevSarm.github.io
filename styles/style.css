@@ -200,25 +200,25 @@ ul a:hover, ul a:active {
 
 	#title {
 		font-size: 3.8rem;
-		margin: 6.5vh 0 0 5vw;
+		margin: 7.85vh 0 0 5vw;
 	}
 
 	#links {
-		font-size: 0.68rem;
-		top: 6.75vh;
+		font-size: 0.62rem;
+		top: 7.95vh;
 		right: 5.8vw;
 	}
 
 	.slide-counter {
 		font-size: 0.52rem;
-	  	top: 4vh;
+	  	top: 6.25vh;
 	  	left: 5.2vw;
 	}
 
 	.image {
-		max-height: 51vh;
-		max-width: 90vw;
-		top: 49.32%;
+		max-height: 52vh;
+		max-width: 60vw;
+		top: 49.4%;
 	}
 
 	.controls {
@@ -240,7 +240,7 @@ ul a:hover, ul a:active {
 
 	.caption {
 		font-size: 0.72rem;
-		bottom: 6.5vh;
+		bottom: 7vh;
 	}
 }
 
@@ -249,31 +249,31 @@ ul a:hover, ul a:active {
 
 @media (min-width: 1025px) and (max-width: 1439px) and (orientation: landscape)  {
 
-	html {background-size: 21vh;}
+	html {background-size: 20vh;}
 
 	ul a {margin: 0 0 3.2vh 0;}
 
 	#title {
 		font-size: 4rem;
-		margin: 7.5vh 0 0 5vw;
+		margin: 6.85vh 0 0 5vw;
 	}
 
 	#links {
-		font-size: 0.64rem;
-		top: 7.7vh;
+		font-size: 0.65rem;
+		top: 6.95vh;
 		right: 5.8vw;
 	}
 
 	.slide-counter {
 		font-size: 0.52rem;
-	  	top: 4.5vh;
+	  	top: 5.25vh;
 	  	left: 5.2vw;
 	}
 
 	.image {
 		max-height: 60vh;
 		max-width: 60vw;
-		top: 50%;
+		top: 49.5%;
 	}
 
 	.controls {
@@ -285,7 +285,7 @@ ul a:hover, ul a:active {
 
 	#next {right: 11.5vw;}
 
-	#dot-container, .controls {bottom: 12.25vh;}
+	#dot-container, .controls {bottom: 12.5vh;}
 
 	.dot {
 		height: 0.4rem;
@@ -340,7 +340,7 @@ ul a:hover, ul a:active {
 
 	#next {right: 11.5vw;}
 
-	#dot-container, .controls {bottom: 12.25vh;}
+	#dot-container, .controls {bottom: 12.5vh;}
 
 	.dot {
 		height: 0.4rem;
@@ -350,6 +350,6 @@ ul a:hover, ul a:active {
 
 	.caption {
 		font-size: 0.78rem;
-		bottom: 5.75vh;
+		bottom: 6vh;
 	}
 }
