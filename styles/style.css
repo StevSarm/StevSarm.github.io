@@ -31,7 +31,7 @@ ul a {
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	margin: 0 0 3.1vh 0;
+	margin: 0 0 3vh 0;
 	transition: color 0.22s ease;
 }
 
@@ -43,7 +43,7 @@ ul a:hover, ul a:active {
 
 #title {
 	font-size: 3.6rem;
-	margin: 6.5vh 0 0 5vw;
+	margin: 6.6vh 0 0 5vw;
 	z-index: 100;
 }
 
@@ -59,7 +59,7 @@ ul a:hover, ul a:active {
 	font-size: 0.52rem;
   	position: absolute;
 	color: rgba(255, 255, 255, 0.58);
-  	top: 2.9vh;
+  	top: 4vh;
   	left: 6.2vw;
 }
 
@@ -72,7 +72,7 @@ ul a:hover, ul a:active {
 	position: absolute;
 	max-height: 51vh;
 	max-width: 90vw;
-	top: 51.6%;
+	top: 51.5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -142,12 +142,12 @@ ul a:hover, ul a:active {
 
 @media (min-width: 768px) and (orientation: portrait)  {
 
-	html {background-size: 21.8vw;}
+	html {background-size: 20.5vw;}
 
 	ul a {margin: 0 0 3.2vh 0;}
 
 	#title {
-		font-size: 4.5rem;
+		font-size: 4.4rem;
 		margin: 6.5vh 0 0 5vw;
 	}
 
@@ -159,12 +159,12 @@ ul a:hover, ul a:active {
 
 	.slide-counter {
 		font-size: 0.7rem;
-	  	top: 2.9vh;
+	  	top: 4vh;
 	  	left: 6.2vw;
 	}
 
 	.image {
-		max-height: 50vh;
+		max-height: 52.5vh;
 		max-width: 90vw;
 		top: 51.6%;
 	}
@@ -175,16 +175,16 @@ ul a:hover, ul a:active {
 		margin: 0 0 -0.775rem 0;
 	}
 
-	#prev {left: 8vw;}
+	#prev {left: 7.2vw;}
 
-	#next {right: 8vw;}
+	#next {right: 7.2vw;}
 
 	#dot-container {bottom: 11.3vh;}
 
 	.dot {
 		height: 0.55rem;
 		width: 0.55rem;
-		margin: 0 2.8vw -0.275rem 2.8vw;
+		margin: 0 2.5vw -0.275rem 2.5vw;
 	}
 
 	.caption {
@@ -215,18 +215,18 @@ ul a:hover, ul a:active {
 
 	.slide-counter {
 		font-size: 0.52rem;
-	  	top: 2.9vh;
-	  	left: 3vw;
+	  	top: 4vh;
+	  	left: 5.2vw;
 	}
 
 	.image {
 		max-height: 51vh;
 		max-width: 90vw;
-		top: 49%;
+		top: 49.32%;
 	}
 
 	.controls {
-		bottom: 14vh;
+		bottom: 15vh;
 		font-size: 1.5rem;
 		margin: 0 0 -0.75rem 0;
 	}
@@ -235,17 +235,17 @@ ul a:hover, ul a:active {
 
 	#next {right: 6vw;}
 
-	#dot-container {bottom: 14vh;}
+	#dot-container {bottom: 15vh;}
 
 	.dot {
-		height: 0.5rem;
-		width: 0.5rem;
-		margin: 0 2.5vw -0.25rem 2.5vw;
+		height: 0.4rem;
+		width: 0.4rem;
+		margin: 0 2vw -0.2rem 2vw;
 	}
 
 	.caption {
-		font-size: 0.7rem;
-		bottom: 5.5vh;
+		font-size: 0.72rem;
+		bottom: 6.5vh;
 	}
 }
 
@@ -254,35 +254,91 @@ ul a:hover, ul a:active {
 
 @media (min-width: 1025px) and (max-width: 1439px) and (orientation: landscape)  {
 
-	html {background-size: 21.7vh;}
+	html {background-size: 21vh;}
 
-	ul a {margin: 0 0 3.5vh 0;}
+	ul a {margin: 0 0 3.2vh 0;}
 
 	#title {
-		font-size: 4.25rem;
-		margin: 6.5vh 0 0 5vw;
+		font-size: 4rem;
+		margin: 7.5vh 0 0 5vw;
 	}
 
 	#links {
 		font-size: 0.64rem;
-		top: 7.2vh;
+		top: 7.7vh;
 		right: 5.8vw;
 	}
 
 	.slide-counter {
 		font-size: 0.52rem;
-	  	top: 3.9vh;
+	  	top: 4.5vh;
 	  	left: 5.2vw;
 	}
 
 	.image {
-		max-height: 62vh;
-		max-width: 62vw;
-		top: 49.5%;
+		max-height: 60vh;
+		max-width: 60vw;
+		top: 50%;
 	}
 
 	.controls {
-		bottom: 12vh;
+		bottom: 12.2vh;
+		font-size: 1.5rem;
+		margin: 0 0 -0.75rem 0;
+	}
+
+	#prev {left: 11.5vw;}
+
+	#next {right: 11.5vw;}
+
+	#dot-container {bottom: 12.2vh;}
+
+	.dot {
+		height: 0.4rem;
+		width: 0.4rem;
+		margin: 0 1vw -0.2rem 1vw;
+	}
+
+	.caption {
+		font-size: 0.74rem;
+		bottom: 6vh;
+	}
+}
+
+
+/* DESKTOP BIG */
+
+@media (min-width: 1440px) and (orientation: landscape)  {
+
+	html {background-size: 17.5vh;}
+
+	ul a {margin: 0 0 3.2vh 0;}
+
+	#title {
+		font-size: 5.2rem;
+		margin: 8vh 0 0 5vw;
+	}
+
+	#links {
+		font-size: 0.74rem;
+		top: 8.2vh;
+		right: 5.8vw;
+	}
+
+	.slide-counter {
+		font-size: 0.7rem;
+	  	top: 5vh;
+	  	left: 5.2vw;
+	}
+
+	.image {
+		max-height: 63vh;
+		max-width: 63vw;
+		top: 50%;
+	}
+
+	.controls {
+		bottom:12vh;
 		font-size: 1.5rem;
 		margin: 0 0 -0.75rem 0;
 	}
@@ -296,67 +352,11 @@ ul a:hover, ul a:active {
 	.dot {
 		height: 0.4rem;
 		width: 0.4rem;
-		margin: 0 1.5vw -0.2rem 1.5vw;
-	}
-
-	.caption {
-		font-size: 0.74rem;
-		bottom: 5.8vh;
-	}
-}
-
-
-/* DESKTOP BIG */
-
-@media (min-width: 1440px) and (orientation: landscape)  {
-
-	html {background-size: 17.5vh;}
-
-	ul a {margin: 0 0 3.5vh 0;}
-
-	#title {
-		font-size: 5rem;
-		margin: 6.5vh 0 0 5vw;
-	}
-
-	#links {
-		font-size: 0.72rem;
-		top: 7.2vh;
-		right: 5.8vw;
-	}
-
-	.slide-counter {
-		font-size: 0.68rem;
-	  	top: 3.9vh;
-	  	left: 5.2vw;
-	}
-
-	.image {
-		max-height: 63vh;
-		max-width: 63vw;
-		top: 49.5%;
-	}
-
-	.controls {
-		bottom:13.5vh;
-		font-size: 1.5rem;
-		margin: 0 0 -0.75rem 0;
-	}
-
-	#prev {left: 11.5vw;}
-
-	#next {right: 11.5vw;}
-
-	#dot-container {bottom: 13.5vh;}
-
-	.dot {
-		height: 0.4rem;
-		width: 0.4rem;
-		margin: 0 1.4vw -0.2rem 1.4vw;
+		margin: 0 1vw -0.2rem 1vw;
 	}
 
 	.caption {
 		font-size: 0.88rem;
-		bottom: 7vh;
+		bottom: 5.5vh;
 	}
 }
