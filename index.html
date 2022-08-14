@@ -1,124 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>StevSarm</title>
-    <meta name="description" content="Steve Sarmiento's Work">
-    <meta name="keywords" content="Steve, Sarmiento, portfolio, 3D, 2D, illustration">
-    <meta name="author" content="Steve Sarmiento">
-    <link href="styles/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.typekit.net/sew5fji.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>StevSarm</title>
+	<meta name="description" content="Steve Sarmiento's Work">
+	<meta name="keywords" content="Steve, Sarmiento, portfolio, 3D, 2D, illustration, album art, album cover">
+	<meta name="author" content="Steve Sarmiento">
+	<link rel="stylesheet" href="/styles/main.css">
+	<link rel="stylesheet" href="https://use.typekit.net/cuy6ytj.css">
+	<script src="/scripts/nav.js" defer></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon-180x180.png?v=3">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=3">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=3">
-	<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png?v=3">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-96x96.png?v=3">
-	<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png?v=3">
 </head>
 <body>
-	<h1 id="title">StevSarm</h1>
+	<a class="name" id="nameLeft">STEVE</a>
+	<a class="name" id="nameRight">SARMIENTO</a>
 
-	<ul id="links">
-		<a href="https://instagram.com/stevsarm">INSTAGRAM</a>
-		<a href="https://twitter.com/stevsarm">TWITTER</a>
-		<a href="mailto:steve22sarmiento@gmail.com">EMAIL</a>
-	</ul>
-	
-	<div id="content">
-		
-		<div class="slide">
-			<div class="slide-counter">1 / 11</div>
-			<img src="/images/pool.jpg" class="image">
-			<div class="caption">" POOL "</div>
-		</div>
+	<div id="frame">
+		<header class="primary-header flex">
 
-		<div class="slide">
-			<div class="slide-counter">2 / 11</div>
-			<img src="/images/after-hours.png" class="image">
-			<div class="caption">" AFTER HOURS "</div>
-		</div>
+			<button class="nav-mobile-toggle" aria-controls="primary-nav" aria-expanded="false">
+				<span class="sr-only">Menu</span>
+			</button>
 
-		<div class="slide">
-			<div class="slide-counter">5 / 11</div>
-			<img src="/images/goat.jpg" class="image">
-			<div class="caption">" GOAT "</div>
-		</div>
+			<nav>
+				<ul class="primary-nav flex" data-visible="false">
+					<li class="selected">
+						<a href="#">PROJECTS.</a>
+					<li>
+						<a href="#">ABOUT ME.</a>
+					<li>
+						<a href="#">CONTACT.</a>
+				</ul>
+			</nav>
 
-		<div class="slide">
-			<div class="slide-counter">6 / 11</div>
-			<img src="/images/moon.jpg" class="image">
-			<div class="caption">" MOON "</div>
-		</div>
-
-		<div class="slide">
-			<div class="slide-counter">5 / 11</div>
-			<img src="/images/cross.jpg" class="image">
-			<div class="caption">" CROSS "</div>
-		</div>
-
-		<div class="slide">
-			<div class="slide-counter">6 / 11</div>
-			<img src="/images/car1.jpg" class="image">
-			<div class="caption">" CAR "</div>
-		</div>
-
-		<div class="slide">
-			<div class="slide-counter">6 / 11</div>
-			<img src="/images/car2.jpg" class="image">
-			<div class="caption">" CAR "</div>
-		</div>
-
-		<div class="slide">
-			<div class="slide-counter">4 / 11</div>
-			<img src="/images/flower-boy.png" class="image">
-			<div class="caption">" FLOWER BOY "</div>
-		</div>
-
-		<div class="slide">
-			<div class="slide-counter">9 / 11</div>
-			<img src="/images/i-feel-like-that.png" class="image">
-			<div class="caption">" I FEEL LIKE THAT "</div>
-		</div>
-		
-		<div class="slide">
-			<div class="slide-counter">8 / 11</div>
-			<img src="/images/ortho.png" class="image">
-			<div class="caption">" ORTHO "</div>
-		</div>
-
-		<div class="slide">
-			<div class="slide-counter">7 / 11</div>
-			<img src="/images/spaceship.png" class="image">
-			<div class="caption">" ALIEN "</div>
-		</div>
-
-		<div class="slide">
-			<div class="slide-counter">3 / 11</div>
-			<img src="/images/skyscraper.png" class="image">
-			<div class="caption">" SKYSCRAPER "</div>
-		</div>
-		
-		<a class="controls" id="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="controls" id="next" onclick="plusSlides(1)">&#10095;</a>
-	
+		</header>
 	</div>
-	
-	<div id="dot-container">
-		<span class="dot" onclick="currentSlide(1)"></span>
-		<span class="dot" onclick="currentSlide(2)"></span>
-		<span class="dot" onclick="currentSlide(3)"></span>
-		<span class="dot" onclick="currentSlide(4)"></span>
-		<span class="dot" onclick="currentSlide(5)"></span>
-		<span class="dot" onclick="currentSlide(6)"></span>
-		<span class="dot" onclick="currentSlide(7)"></span>
-		<span class="dot" onclick="currentSlide(8)"></span>
-		<span class="dot" onclick="currentSlide(9)"></span>
-		<span class="dot" onclick="currentSlide(10)"></span>
-		<span class="dot" onclick="currentSlide(11)"></span>
-		<span class="dot" onclick="currentSlide(12)"></span>
-	</div>
-	<script src="scripts/script.js"></script>
+	<div id="fakecontent"></div>
 </body>
 </html>
