@@ -19,7 +19,7 @@
 	--nav-text-gap: 6rem;
 	--nav-text-gap-mobile: 4rem;
 	--nav-padding-vertical-desktop: 1rem;
-	--nav-padding-bottom-mobile: 20vh;
+	--nav-padding-bottom-mobile: 10vh;
 	--nav-padding-left-mobile: 18%;
 
 	--header-height: calc(var(--main-font-size) + (var(--nav-padding-vertical-desktop) * 2));
@@ -52,7 +52,7 @@ html {
 
 html,body, a {
 	font-family: source-code-pro, monospace;
-	font-weight: 200;
+	font-weight: 300;
 	font-style: normal;
 	font-size: var(--main-font-size);
 	line-height: 1;
