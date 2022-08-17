@@ -116,6 +116,7 @@ html,body, a {
 /* -- Header -- */
 .primary-header {
 	border-bottom: solid 1px var(--palette-01);
+	pointer-events:initial;
 }
 
 /* -- Mobile Toggle -- */
