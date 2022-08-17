@@ -9,7 +9,7 @@ var macyInstance = Macy({
 	mobileFirst: true,
 	columns: 1,
     breakAt: {
-        1024: 3,
-        560: 2
+        1060: 3,
+        558: 2
 	}
   });
