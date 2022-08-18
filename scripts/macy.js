@@ -13,3 +13,7 @@ var main = Macy({
         558: 2
 	}
   });
+
+  main.runOnImageLoad(function () {
+	main.recalculate(true);
+  }, true);
