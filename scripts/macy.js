@@ -17,3 +17,4 @@ var main = Macy({
   main.runOnImageLoad(function () {
 	main.recalculate(true);
   }, true);
+  
