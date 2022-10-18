@@ -4,7 +4,7 @@
 	--palette-03: hsl(196, 24%, 46%);
 	--palette-04: hsl(197, 66%, 21%);
 	--palette-05: hsl(197, 94%, 6%);
-	--palette-06: hsl(197, 87%, 30%);
+	--palette-06: #51d0ba;
 
 	accent-color: var(--palette-06);
 
@@ -72,6 +72,13 @@
 html, .content {
 	width: 100%;
 	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
 }
 
 /* ---- GLOBAL ---- */
@@ -158,39 +165,8 @@ html,body, a {
 
 /* -- Content -- */
 .content {
-	height: auto;
+	height: 100%;
 	text-align: center;
-}
-
-.images {
-	display: block;
-	width: 100% !important;
-	height: auto !important;
-	opacity: 1.0;
-	transition: ease 350ms opacity;
-}
-
-.images:hover, .images:active {
-	opacity: 0.65;
-}
-
-.about {
-	width: 75%;
-	margin: calc(var(--large-header-height) * 1.5) auto 0;
-	display: inline-block;
-}
-
-.grid { 
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 0;
-	align-items: start;
-	justify-items: start;
-	margin: var(--large-header-height) 0 0 0;
-}
-
-.grid-images {
-	max-width: 100%;
 }
 
 
@@ -217,8 +193,8 @@ html,body, a {
 
 .content {
 	width: 80%;
-	margin: calc(var(--large-header-height) + (var(--main-padding) * 2.5)) auto 0;
-	padding: 0 0 calc(var(--main-padding) * 2.5) 0;
+	margin: 0 auto;
+	padding: calc(var(--large-header-height) + (var(--main-padding) * 2) + 2px) 0 calc(var(--main-padding) * 2 + 1px) 0;
 }
 
 
@@ -246,8 +222,8 @@ html,body, a {
 
 	.content {
 		width: 84%;
-		margin: calc(var(--med-header-height) + (var(--main-padding) * 2.25)) auto 0;
-		padding: 0 0 calc(var(--main-padding) * 2.25) 0;
+		margin: 0 auto;
+		padding: calc(var(--med-header-height) + (var(--main-padding) * 2) + 2px) 0 calc(var(--main-padding) * 2 + 1px) 0;
 	}
 }
 
@@ -264,7 +240,7 @@ html,body, a {
 	}
 	
 	#nameRight {
-		top: calc(var(--main-padding) + var(--mobile-header-height) + var(--mobile-name-letter-spacing));
+		top: calc(var(--main-padding) * 2);
 	}
 
 	.primary-header {
@@ -321,15 +297,7 @@ html,body, a {
 
 	.content {
 		width: calc(100% - (var(--main-padding) * 4));
-		margin: calc(var(--main-padding) * 2) auto 0;
-		padding: 0 0 calc(var(--main-padding) * 2);
-	}
-
-	.about {
-		width: 80%;
-	}
-
-	.grid { 
-		grid-template-columns: 1fr;
+		margin: 0 auto;
+		padding: calc(var(--main-padding) * 2) 0;
 	}
 }

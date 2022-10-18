@@ -1,0 +1,31 @@
+:root {
+	--palette-01: hsl(79, 55%, 92%);
+	--palette-02: hsl(126, 15%, 72%);
+	--palette-03: hsl(196, 24%, 46%);
+	--palette-04: hsl(197, 66%, 21%);
+	--palette-05: hsl(197, 94%, 6%);
+	--palette-06: #51d0ba;
+}
+
+.about {
+	display: flex;
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* ---- MEDIUM ---- */
+
+@media (max-width: 62em) {
+}
+
+/* ---- MOBILE ---- */
+
+@media (max-width: 35em) {
+	.about {
+		width: 80%;
+	}
+}

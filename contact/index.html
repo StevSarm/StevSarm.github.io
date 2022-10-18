@@ -6,6 +6,7 @@
 	<meta name="keywords" content="Steve, Sarmiento, portfolio, 3D, 2D, illustration, album art, album cover">
 	<meta name="author" content="Steve Sarmiento">
 	<link rel="stylesheet" href="/styles/main.css">
+	<link rel="stylesheet" href="/styles/contact.css">
 	<link rel="stylesheet" href="https://use.typekit.net/cuy6ytj.css">
 	<script src="/scripts/nav.js" defer></script>
 	<script src="/scripts/macy.js" defer></script>
@@ -37,7 +38,20 @@
 	</div>
 
 	<main class="content">
-
+		<div class="contact">
+			<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xlevwbev" method="post">
+				<fieldset id="fs-frm-inputs">
+					<label for="full-name">FULL NAME</label>
+					<input type="text" name="name" id="full-name" placeholder="Harry Mason" required="">
+					<label for="email-address">EMAIL ADDRESS</label>
+					<input type="email" name="_replyto" id="email-address" placeholder="example@domain.com" required="">
+					<label for="message">MESSAGE</label>
+					<textarea rows="5" name="message" id="message" placeholder="..." required=""></textarea>
+					<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+				  </fieldset>
+				  <input type="submit" value="Submit">
+				</form>
+		  </div>
 	</main>
 </body>
 </html>

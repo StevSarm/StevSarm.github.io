@@ -1,0 +1,121 @@
+:root {
+	--palette-01: hsl(79, 55%, 92%);
+	--palette-02: hsl(126, 15%, 72%);
+	--palette-03: hsl(196, 24%, 46%);
+	--palette-04: hsl(197, 66%, 21%);
+	--palette-05: hsl(197, 94%, 6%);
+	--palette-06: #51d0ba;
+}
+
+.contact {
+	display: flex;
+	height: 100%;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: 0.92rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+	border: 1px solid rgba(0,0,0,0.2);
+	background-color: var(--palette-01);
+	padding: .75em 1rem;
+	margin-bottom: 1.5rem;
+ 	color: #000;
+	font-family: source-code-pro, monospace;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+#fs-frm [type="submit"] {
+	background-color: var(--palette-06);
+	color: var(--palette-05);
+	float: right;
+}
+
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+	outline-style: solid;
+	outline-width: thin;
+	outline-color: gray;
+	outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+	width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+ 	width: auto;
+	cursor: pointer;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+	outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+	margin-bottom: 0;
+}
+#fs-frm select {
+	text-transform: none;
+}
+
+
+/* ---- MEDIUM ---- */
+
+@media (max-width: 62em) {
+}
+
+/* ---- MOBILE ---- */
+
+@media (max-width: 35em) {
+	#fs-frm input,
+	#fs-frm select,
+	#fs-frm textarea,
+	#fs-frm fieldset,
+	#fs-frm optgroup,
+	#fs-frm label,
+	#fs-frm #card-element:disabled {
+		width: 340px;
+	}
+}

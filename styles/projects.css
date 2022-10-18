@@ -1,0 +1,46 @@
+:root {
+	--palette-01: hsl(79, 55%, 92%);
+	--palette-02: hsl(126, 15%, 72%);
+	--palette-03: hsl(196, 24%, 46%);
+	--palette-04: hsl(197, 66%, 21%);
+	--palette-05: hsl(197, 94%, 6%);
+	--palette-06: #51d0ba;
+}
+
+.content {
+	height: auto;
+}
+
+
+.masonry-images {
+	display: block;
+	width: 100% !important;
+	height: auto !important;
+	opacity: 1.0;
+	transition: ease 350ms opacity;
+}
+
+.masonry-images:hover, .masonry-images:active {
+	opacity: 0.65;
+}
+
+.masonry-videos {
+	display: block;
+	width: 100% !important;
+	opacity: 1.0;
+	transition: ease 350ms opacity;
+}
+
+.masonry-videos:hover, .masonry-videos:active {
+	opacity: 0.65;
+}
+
+/* ---- MEDIUM ---- */
+
+@media (max-width: 62em) {
+}
+
+/* ---- MOBILE ---- */
+
+@media (max-width: 35em) {
+}
