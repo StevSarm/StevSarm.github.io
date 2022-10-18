@@ -24,17 +24,6 @@
 	opacity: 0.65;
 }
 
-.masonry-videos {
-	display: block;
-	width: 100% !important;
-	opacity: 1.0;
-	transition: ease 350ms opacity;
-}
-
-.masonry-videos:hover, .masonry-videos:active {
-	opacity: 0.65;
-}
-
 /* ---- MEDIUM ---- */
 
 @media (max-width: 62em) {
