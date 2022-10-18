@@ -14,9 +14,11 @@ var main = Macy({
 	}
   });
 
-  main.runOnImageLoad(function () {
+main.runOnImageLoad(function () {
 	main.recalculate(true);
-  }, true);
-
-  main.recalculate();
+}, true);
   
+macyInstance.runOnImageLoad(function () {
+	console.log('I only get called when all images are loaded');
+	macyInstance.recalculate(true, true);
+  });
