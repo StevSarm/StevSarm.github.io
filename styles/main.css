@@ -8,42 +8,54 @@
 
 	accent-color: var(--palette-06);
 
-	--main-padding: 20px;
-	--main-blur-size: 1.75rem;
+	--frame-padding: 20px;
+
+	--nav-blur-size: 1.75rem;
+	--nav-padding-vertical: 1rem;
 
 
-	--large-main-font-size: 1rem;
-	--large-name-font-size: 1.8rem;
-	--large-name-letter-spacing: 1.8rem;
+	/* DESKTOP */
+	--desktop-main-font-size: 1rem;
 
-	--large-nav-padding-vertical: 1rem;
-	--large-nav-gap: 7.5rem;
+	--desktop-name-font-size: 1.5rem;
+	--desktop-name-letter-spacing: 1.75rem;
+
+	--desktop-nav-gap: 7.5rem;
 
 
-	--med-main-font-size: 0.97rem;
-	--med-name-font-size: 1.6rem;
-	--med-name-letter-spacing: 1.8rem;
+	/* TABLET */
+	--tablet-main-font-size: 0.97rem;
 
-	--med-nav-padding-vertical: 1rem;
-	--med-nav-gap: 8%;
+	--tablet-name-font-size: 1.32rem;
+	--tablet-name-letter-spacing: 2rem;
 
+	--tablet-nav-gap: 14%;
+
+
+	/* MOBILE */
+	--mobile-main-font-size: 0.92rem;
+
+	--mobile-name-font-size: 1.2rem;
+	--mobile-name-letter-spacing: 1.6rem;
+
+	--nav-mobile-blur-size: 3rem;
+	--mobile-nav-gap: 4.8rem;
 
 	--mobile-toggle-size: 1.3rem;
 
-	--mobile-main-font-size: 0.92rem;
-	--mobile-name-font-size: 1.8rem;
-	--mobile-name-letter-spacing: 1.5rem;
-
 	--mobile-nav-color: hsl(197 100% 5% / 0.82);
 	--mobile-nav-blur-color: hsl(197 100% 4.6% / 0.62);
-	--mobile-nav-padding-bottom: 0;
+	--mobile-nav-padding-bottom: 24px;
 	--mobile-nav-padding-left: 18%;
-	--mobile-nav-gap: 4.8rem;
 
 
-	--large-header-height: calc(var(--large-main-font-size) + (var(--large-nav-padding-vertical) * 2));
-	--med-header-height: calc(var(--med-main-font-size) + (var(--med-nav-padding-vertical) * 2));
+	--desktop-header-height: calc(var(--desktop-main-font-size) + (var(--nav-padding-vertical) * 2));
+	--tablet-header-height: calc(var(--tablet-main-font-size) + (var(--nav-padding-vertical) * 2));
 }
+
+
+
+/* ------------ Utility Classes ------------ */
 
 .sr-only {
 	border: 0 !important;
@@ -63,33 +75,31 @@
 	gap: var(--gap, 1rem);
 }
 
+
+
+/* ------------ GLOBAL - All/Non-Mobile Sizes ------------ */
+
 *,html,body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-html, .content {
+html, body, .content {
 	width: 100%;
 	height: 100%;
 }
 
 body {
-	height: 100%;
-	width: 100%;
 	position: absolute;
 	top: 0;
 }
 
-/* ---- GLOBAL ---- */
-
 /* -- BG Color -- */
-html {
-	background-color: var(--palette-05);
-}
+html { background-color: var(--palette-05); }
 
 /* -- Main Text -- */
-html,body, a {
+html, body, a {
 	font-family: source-code-pro, monospace;
 	font-weight: 300;
 	font-style: normal;
@@ -109,21 +119,20 @@ html,body, a {
 	opacity: 0.72;
 }
 #nameLeft {
-	left: calc(var(--main-padding) + 1px);
-	bottom: calc(var(--main-padding) + 1px);
+	left: calc(var(--frame-padding) + 1px);
+	bottom: calc(var(--frame-padding) + 1px);
 }
 #nameRight {
-	right: var(--main-padding);
+	right: var(--frame-padding);
 }
 
-/* -- Frame -- */
 #frame {
 	position: fixed;
 	border: solid 1px var(--palette-01);
-	width: calc(100% - (var(--main-padding) * 2));
-	height: calc(100% - (var(--main-padding) * 2));
-	left: var(--main-padding);
-	top: var(--main-padding);
+	width: calc(100% - (var(--frame-padding) * 2));
+	height: calc(100% - (var(--frame-padding) * 2));
+	left: var(--frame-padding);
+	top: var(--frame-padding);
 	z-index: 981;
 	pointer-events: none;
 }
@@ -135,18 +144,14 @@ html,body, a {
 }
 
 /* -- Mobile Toggle -- */
-.nav-mobile-toggle {
-	display: none;
-}
+.nav-mobile-toggle { display: none; }
 
 /* -- Nav -- */
-.primary-nav {
-	width: 100%;
-}
-@supports (backdrop-filter: blur(var(--main-blur-size))) or (-webkit-backdrop-filter: blur(var(--main-blur-size))) {
+.primary-nav { width: 100%; }
+@supports (backdrop-filter: blur(var(--nav-blur-size))) or (-webkit-backdrop-filter: blur(var(--nav-blur-size))) {
 	.primary-nav {
-		backdrop-filter: blur(var(--main-blur-size));
-		-webkit-backdrop-filter: blur(var(--main-blur-size));
+		backdrop-filter: blur(var(--nav-blur-size));
+		-webkit-backdrop-filter: blur(var(--nav-blur-size));
 	}
 }
 
@@ -156,11 +161,15 @@ html,body, a {
 	border-right: solid 1px var(--palette-01);
 	list-style: none;
 	justify-content: center;
+	padding: var(--nav-padding-vertical) 0;
 }
 
 /*-- Nav Text -- */
-.primary-nav a {text-decoration: none;}
-.primary-nav a:hover, .primary-nav a:active {color: var(--main-text-hover-color);}
+.primary-nav a {
+	text-decoration: none;
+	transition: color 150ms ease;
+}
+.primary-nav a:hover, .primary-nav a:active {color: var(--palette-02);}
 .selected a {text-decoration: line-through;}
 
 /* -- Content -- */
@@ -170,62 +179,58 @@ html,body, a {
 }
 
 
-/* ---- LARGE ---- */
 
-html,body, a {
-	font-size: var(--large-main-font-size);
-}
+/* ------------ DESKTOP ------------ */
+
+html,body, a { font-size: var(--desktop-main-font-size); }
 
 .name {
-	font-size: var(--large-name-font-size);
-	letter-spacing: var(--large-name-letter-spacing);
+	font-size: var(--desktop-name-font-size);
+	letter-spacing: var(--desktop-name-letter-spacing);
 }
 
-#nameRight {
-	top: calc(var(--main-padding) + var(--large-header-height) + var(--large-name-letter-spacing) + 2px);
-}
+#nameRight { top: calc(var(--frame-padding) + var(--desktop-header-height) + var(--desktop-name-letter-spacing) + 2px); }
 
 .primary-nav-ul {
-	padding: var(--large-nav-padding-vertical) 0;
-	margin: 0 var(--large-header-height);
-	--gap: var(--large-nav-gap);
+	margin: 0 var(--desktop-header-height);
+	--gap: var(--desktop-nav-gap);
 }
 
 .content {
 	width: 80%;
 	margin: 0 auto;
-	padding: calc(var(--large-header-height) + (var(--main-padding) * 2) + 2px) 0 calc(var(--main-padding) * 2 + 1px) 0;
+	padding: calc(var(--desktop-header-height) + (var(--frame-padding) * 2) + 2px) 0 calc(var(--frame-padding) * 2 + 1px) 0;
 }
+
 
 
 /* ---- MEDIUM ---- */
 
 @media (max-width: 62em) {
 	html,body, a {
-		font-size: var(--med-main-font-size);
+		font-size: var(--tablet-main-font-size);
 	}
 
 	.name {
-		font-size: var(--med-name-font-size);
-		letter-spacing: var(--med-name-letter-spacing);
+		font-size: var(--tablet-name-font-size);
+		letter-spacing: var(--tablet-name-letter-spacing);
 	}
 
-	#nameRight {
-		top: calc(var(--main-padding) + var(--med-header-height) + var(--med-name-letter-spacing) + 2px);
-	}
+	#nameRight { top: calc(var(--frame-padding) + var(--tablet-header-height) + var(--tablet-name-letter-spacing) + 2px); }
 
 	.primary-nav-ul {
-		padding: var(--med-nav-padding-vertical) 0;
-		margin: 0 var(--med-header-height);
-		--gap: var(--med-nav-gap);
+		margin: 0 var(--tablet-header-height);
+		--gap: var(--tablet-nav-gap);
 	}
 
 	.content {
 		width: 84%;
 		margin: 0 auto;
-		padding: calc(var(--med-header-height) + (var(--main-padding) * 2) + 2px) 0 calc(var(--main-padding) * 2 + 1px) 0;
+		padding: calc(var(--tablet-header-height) + (var(--frame-padding) * 2) + 2px) 0 calc(var(--frame-padding) * 2 + 1px) 0;
 	}
 }
+
+
 
 /* ---- MOBILE ---- */
 
@@ -240,7 +245,7 @@ html,body, a {
 	}
 	
 	#nameRight {
-		top: calc(var(--main-padding) * 2);
+		top: calc(var(--frame-padding) * 2);
 	}
 
 	.primary-header {
@@ -256,8 +261,8 @@ html,body, a {
 		border: none;
 		width: var(--mobile-toggle-size);
 		aspect-ratio: 1;
-		top: var(--main-padding);
-		right: var(--main-padding);
+		top: var(--frame-padding);
+		right: var(--frame-padding);
 		z-index: 985;
 	}
 	
@@ -287,17 +292,17 @@ html,body, a {
 	.primary-nav-ul[data-visible="true"] {
 		transform: translateX(0%);
 	}
-	@supports (backdrop-filter: blur(var(--main-blur-size))) or (-webkit-backdrop-filter: blur(var(--main-blur-size))) {
+	@supports (backdrop-filter: blur(var(--nav-mobile-blur-size))) or (-webkit-backdrop-filter: blur(var(--nav-mobile-blur-size))) {
 		.primary-nav-ul {
-			backdrop-filter: blur(var(--main-blur-size));
-			-webkit-backdrop-filter: blur(var(--main-blur-size));
+			backdrop-filter: blur(var(--nav-mobile-blur-size));
+			-webkit-backdrop-filter: blur(var(--nav-mobile-blur-size));
 			background: var(--mobile-nav-blur-color);
 		}
 	}
 
 	.content {
-		width: calc(100% - (var(--main-padding) * 4));
+		width: calc(100% - (var(--frame-padding) * 4));
 		margin: 0 auto;
-		padding: calc(var(--main-padding) * 2) 0;
+		padding: calc(var(--frame-padding) * 2) 0;
 	}
 }

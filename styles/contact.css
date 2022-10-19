@@ -7,115 +7,79 @@
 	--palette-06: #51d0ba;
 }
 
+.content {
+	width: 100%;
+	display: inline-block;
+}
+
 .contact {
 	display: flex;
 	height: 100%;
-	margin: 0 auto;
+	margin: -24px auto 0 auto;
 	align-items: center;
 	justify-content: center;
 }
 
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
+
 #fs-frm fieldset,
-#fs-frm optgroup,
 #fs-frm label,
-#fs-frm #card-element:disabled {
-  font-family: inherit;
-  font-size: 100%;
-  color: inherit;
-  border: none;
-  border-radius: 0;
-  display: block;
-  width: 400px;
-  padding: 0;
-  margin: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-#fs-frm label,
-#fs-frm legend,
-#fs-frm ::placeholder {
-  font-size: 0.92rem;
-  margin-bottom: .5rem;
-  padding-top: .2rem;
-  display: flex;
-  align-items: baseline;
+#fs-frm input,
+#fs-frm textarea {
+	display: block;
+	width: 100%;
+	border: 0;
 }
 
-/* border, padding, margin, width */
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm #card-element {
-	border: 1px solid rgba(0,0,0,0.2);
-	background-color: var(--palette-01);
-	padding: .75em 1rem;
-	margin-bottom: 1.5rem;
- 	color: #000;
+#fs-frm {
+	z-index: 100;
+	display: block;
+	text-align: left;
+	width: 80%;
+	max-width: 400px;
+}
+
+#fs-frm label {
+	font-size: 0.92rem;
 	font-family: source-code-pro, monospace;
 	font-weight: 300;
 	font-style: normal;
-	line-height: 1.5;
+	line-height: 1;
+}
+
+#fs-frm input, textarea {
+	font-size: 0.82rem;
+	margin: 0.75rem 0 1.5rem 0;
+	padding: .5rem .75rem;
+	resize: none;
+	background-color: var(--palette-01);
 }
 
 #fs-frm [type="submit"] {
+	margin: 0.5rem 0 0 0;
+	padding: .5rem .75rem;
 	background-color: var(--palette-06);
 	color: var(--palette-05);
 	float: right;
+	max-width: 5rem;
+	cursor: pointer;
 }
 
-#fs-frm input:focus,
-#fs-frm select:focus,
-#fs-frm textarea:focus {
-	outline-style: solid;
-	outline-width: thin;
-	outline-color: gray;
-	outline-offset: -1px;
-}
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
-	width: 100%;
-}
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
- 	width: auto;
-	cursor: pointer;
-	-webkit-appearance: button;
-	-moz-appearance: button;
-	appearance: button;
-}
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
-	outline: none;
-}
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-	margin-bottom: 0;
-}
-#fs-frm select {
-	text-transform: none;
-}
 
 
 /* ---- MEDIUM ---- */
 
 @media (max-width: 62em) {
+	#fs-frm {
+		width: 60%;
+		max-width: 400px;
+	}
 }
 
 /* ---- MOBILE ---- */
 
 @media (max-width: 35em) {
-	#fs-frm input,
-	#fs-frm select,
-	#fs-frm textarea,
-	#fs-frm fieldset,
-	#fs-frm optgroup,
-	#fs-frm label,
-	#fs-frm #card-element:disabled {
-		width: 340px;
+	#fs-frm {
+		width: 60%;
+		max-width: calc(100%) - 40px;
 	}
 }
