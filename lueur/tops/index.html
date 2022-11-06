@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LUEUR - Tops</title>
+	<meta name="description" content="Clothing" />
+	<meta name="keywords" content="lueur, clothing, apparel, unisex" />
+	<meta name="author" content="Steve Sarmiento" />
+	<link rel="stylesheet" href="/lueur/styles/global.css" />
+	<link rel="stylesheet" href="/lueur/styles/gallery.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/ziy7yzl.css" />
+	<script src="/lueur/scripts/nav.js" defer></script>
+	<script src="/lueur/scripts/gallery.js" defer></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+</head>
+<body>
+	<header class="primary-header">
+		<nav class="primary-nav-main flex">
+			<button class="nav-mobile-toggle link-img" aria-controls="primary-nav-secondary" aria-expanded="false">
+				<span class="sr-only">Menu</span>
+			</button>
+			<a class="nav-name" href="/lueur/">LUEUR</a>
+			<a class="nav-cart link-img" href="/lueur/cart"><img src="/lueur/images/cart.png" /></a>
+		</nav>
+
+		<ul class="primary-nav-secondary flex" data-visible="false">
+			<li class="nav-selected">
+				<a href="/lueur/tops/">TOPS</a>
+			</li>
+
+			<li>
+				<a href="/lueur/bottoms/">BOTTOMS</a>
+			</li>
+
+			<li>
+				<a href="/lueur/about/">ABOUT</a>
+			</li>
+
+			<li>
+				<a href="/lueur/contact/">CONTACT</a>
+			</li>
+		</ul>
+	</header>
+
+	<div class="content">
+		<div class="filter-section">
+			<h1 class="filter-text">Filter Options</h1>
+			<div id="myBtnContainer">
+				<button class="btn active" onclick="filterSelection('all')">Show All</button>
+				<button class="btn" onclick="filterSelection('shirts')">Shirts</button>
+				<button class="btn" onclick="filterSelection('crewnecks')">Crewnecks</button>
+				<button class="btn" onclick="filterSelection('sand')">Sand</button>
+				<button class="btn" onclick="filterSelection('taupe')">Taupe</button>
+				<button class="btn" onclick="filterSelection('mist')">Mist</button>
+				<button class="btn" onclick="filterSelection('moss')">Moss</button>
+			</div>
+		</div>
+		<div class="gallery-grid grid">
+			<div class="gallery">
+				<div class="row">
+					<div class="column shirts sand">
+						<div class="card">
+							<img src="/lueur/images/shirts/shirt-sand.jpg" alt="shirt - sand" style="width: 100%" />
+							<h4>Shirt - Sand</h4>
+							<p>$14.99</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+
+					<div class="column shirts taupe">
+						<div class="card">
+							<img src="/lueur/images/shirts/shirt-taupe.jpg" alt="shirt - taupe" style="width: 100%" />
+							<h4>Shirt - Taupe</h4>
+							<p>$14.99</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+					<div class="column shirts mist">
+						<div class="card">
+							<img src="/lueur/images/shirts/shirt-mist.jpg" alt="shirt - mist" style="width: 100%" />
+							<h4>Shirt - Mist</h4>
+							<p><s>$14.99</s> $10.50</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+					<div class="column shirts moss">
+						<div class="card">
+							<img src="/lueur/images/shirts/shirt-moss.jpg" alt="shirt - moss" style="width: 100%" />
+							<h4>Shirt - Moss</h4>
+							<p>$14.99</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+
+					<div class="column crewnecks sand">
+						<div class="card">
+							<img src="/lueur/images/crewnecks/crewneck-sand.jpg" alt="crewneck - sand" style="width: 100%" />
+							<h4>Crewneck - Sand</h4>
+							<p>$14.99</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+
+					<div class="column crewnecks taupe">
+						<div class="card">
+							<img src="/lueur/images/crewnecks/crewneck-taupe.jpg" alt="crewneck - taupe" style="width: 100%" />
+							<h4>Crewneck - Taupe</h4>
+							<p>$14.99</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+					<div class="column crewnecks mist">
+						<div class="card">
+							<img src="/lueur/images/crewnecks/crewneck-mist.jpg" alt="crewneck - mist" style="width: 100%" />
+							<h4>Crewneck - Mist</h4>
+							<p><s>$14.99</s> $10.50</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+					<div class="column crewnecks moss">
+						<div class="card">
+							<img src="/lueur/images/crewnecks/crewneck-moss.jpg" alt="crewneck - moss" style="width: 100%" />
+							<h4>Crewneck - Moss</h4>
+							<p>$14.99</p>
+							<p>ADD TO CART</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
